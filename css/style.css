@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+}
+.container{
+    margin: 2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    width:67vw;
+    text-align: center;
+    max-width: 280px;
+    margin-top: 2rem;
+}
+
+input{
+    font-size: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: 1px solid gray;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.add-btn{
+    background-color: rgb(9, 173, 9);
+}
+
+.task-container{
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+.task-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 47vw;
+    align-items: center;
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.task{
+    font-size: 1.2rem;
+}
+
+.delete-btn{
+    background-color: crimson;
+}
